@@ -24,14 +24,14 @@ div.second {
   height:100px;
 }
 div.uberschrift {
-position: absolute;
-font-size: 15px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 5px;
-color: white;
-align-items: center;
-font-family: "Lucida Console", "Courier New", light;
+  position: absolute;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  align-items: center;
+  font-family: "Lucida Console", "Courier New", light;
 }
 .dropdown {
   display: inline-block;
@@ -101,6 +101,27 @@ font-family: "Lucida Console", "Courier New", light;
   resize: none;
 }
 
+div.uberschriftenhome {
+  position: absolute;
+  font-size: 15px;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  align-items: center;
+  font-family: "Lucida Console", "Courier New", light;
+}
+
+div.vertretungsplan {
+  position: absolute;
+  font-size: 15px;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  align-items: center;
+  font-family: "Lucida Console", "Courier New", light;
+}
 
 
 
