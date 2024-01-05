@@ -14,10 +14,33 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 14px 14px;
+  text-decoration:dotted;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(75, 75, 165);
+}
+
+div.uberschrift {
+  font-size: 40px;
+  font-family: Verdana;
+  position: relative;
+  left: 20px;
+  top: 0px;
+  padding: 0px 16px;
+
+}
+div.hometext {
+  position: absolute;
+  left: 70px;
+  top: 200px;
+  font-family: Verdana;
+  font-size: 20px;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  height: auto;
+  width: auto;
+
 }
