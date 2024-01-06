@@ -107,6 +107,7 @@ div.uberschriftenhome {
   padding-top: 100px;
   padding-bottom: 5px;
   padding-left: 5px;
+  left: 20px;
   color: white;
   align-items: center;
   font-family: "Lucida Console", "Courier New", light;
@@ -130,3 +131,35 @@ div.vertretungsplan {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: rgb(79, 89, 110);}
+
+/* Login CSS */
+
+div.login_username_label {
+  padding: 10px;
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", light;
+}
+
+div.login_password {
+  padding: 10px;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", light;
+}
+
+div.login_username_input {
+  padding: 10px;
+  position: relative;
+  top: 200px;
+  left: 150px;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", light;
+}
