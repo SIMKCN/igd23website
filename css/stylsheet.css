@@ -173,3 +173,17 @@ div.login_password_label {
   font-size: 18px;
   font-family: "Lucida Console", "Courier New", light;
 }
+
+/* CSS Vertretungsplan */
+
+div.vertretungsplan {
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  left: 90px;
+  color: white;
+  font-size: 25px;
+
+  font-family: "Lucida Console", "Courier New", light;
+}
+
