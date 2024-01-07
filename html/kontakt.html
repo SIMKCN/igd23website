@@ -16,22 +16,7 @@
                 <a href="/html/login.html">Login</a>
             </div>
         </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var dropdownButton = document.querySelector(".dropbtn");
-            var dropdownContent = document.querySelector(".dropdown-content");
-
-            dropdownButton.addEventListener("click", function () {
-                dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
-            });
-
-            document.addEventListener("click", function (event) {
-                if (!dropdownButton.contains(event.target) && !dropdownContent.contains(event.target)) {
-                    dropdownContent.style.display = "none";
-                }
-            });
-        });
-    </script>
+        <script> src=/javascript/menu.js</script>
     </header>
     <body class="bodyformat">
         <div class="uberschriftenhome">
