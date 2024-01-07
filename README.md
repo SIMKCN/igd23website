@@ -1,3 +1,3 @@
 # igd23website
 
-# Bitte alle Änderung auf den Branch "Version1" leiten.
+Für Änderungen bitte Pull Requests erstellen
