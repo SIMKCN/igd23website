@@ -10,7 +10,7 @@
 
         <div class="uberschrift"> <h1>IGD23-DUBAS-BSZET</h1></div>
         <div class="dropdown">
-            <button class="dropbtn">Menu</button>
+            <button style="padding: 2px;" class="dropbtn">Menu</button>
             <div class="dropdown-content">
                 <a href="/html/home.html">Home</a>
                 <a href="/html/vertretungsplan.html">Vertretungsplan</a>
@@ -20,14 +20,26 @@
 
             </div>
         </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var dropdownButton = document.querySelector(".dropbtn");
+            var dropdownContent = document.querySelector(".dropdown-content");
+
+            dropdownButton.addEventListener("click", function () {
+                dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+            });
+
+            document.addEventListener("click", function (event) {
+                if (!dropdownButton.contains(event.target) && !dropdownContent.contains(event.target)) {
+                    dropdownContent.style.display = "none";
+                }
+            });
+        });
+    </script>
     </header>
     <body class="bodyformat">
-    <div class="uberschriftenhome">
-        <h1>Termine</h1>
-
-    </div>
-
-
-
+        <div class="uberschriftenhome">
+            <h1>Termine</h1>
+        </div>
     </body>
 </html>
