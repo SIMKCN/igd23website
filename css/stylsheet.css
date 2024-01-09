@@ -128,8 +128,6 @@ div.vertretungsplan {
 
 .dropdown-content a:hover {background-color: rgb(79, 89, 110);}
 
-.dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-color: rgb(79, 89, 110);}
 
 /* Login CSS */
@@ -178,7 +176,7 @@ div.login_password_label {
 
 div.vertretungsplan {
   padding: 20px;
-  position: relative;
+  position: absolute;
   top: 100px;
   left: 90px;
   color: white;
@@ -186,4 +184,3 @@ div.vertretungsplan {
 
   font-family: "Lucida Console", "Courier New", light;
 }
-
